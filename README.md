@@ -1,3 +1,5 @@
+This repository is just demo page to see if using [main repository](https://github.com/stopsopa/monaco-editor-webcomponent) from npm will work.
+
 # parent repository
 
 - [main repository](https://github.com/stopsopa/monaco-editor-webcomponent)
