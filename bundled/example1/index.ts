@@ -85,6 +85,13 @@ const modified = `
     });
   `;
 
+model.original.setValue(original);
+model.modified.setValue(modified);
+
+/**
+ * Rest below is just managing URL updates and restoration of states based on URL
+ */
+
 function wireResizerUrlSync(resizer: HTMLElement, index: number) {
   const config = {
     left: {
@@ -201,6 +208,3 @@ themeSelect.addEventListener("change", () => {
 languageSelect.addEventListener("change", () => {
   setParam("language", languageSelect.value);
 });
-
-model.original.setValue(original);
-model.modified.setValue(modified);
