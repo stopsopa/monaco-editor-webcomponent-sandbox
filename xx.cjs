@@ -45,6 +45,15 @@ node --env-file .env --watch server.ts
       source: false,
       confirm: false,
     },
+    transpile: {
+      command: `
+set -e
+/bin/bash es.sh
+      `,
+      description: "Transpile all typescript files to javascript",
+      source: false,
+      confirm: false,
+    },
 
     [`coverage`]: {
       command: `   
