@@ -130,7 +130,7 @@ export default function MonacoDiffDemo() {
               href="https://github.com/stopsopa/monaco-editor-webcomponent-sandbox/blob/main/src/pages/CompositeExample.tsx"
               className="gcp-css"
             >
-              snippet
+              source
             </a>
           </p>
         </div>
