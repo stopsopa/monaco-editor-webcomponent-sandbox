@@ -1,7 +1,7 @@
 # parent repository
 
 - [main repository](https://github.com/stopsopa/select-component/tree/main)
-- [list](https://stopsopa.github.io/select-component-sandbox/list.html)
+- [list](https://stopsopa.github.io/monaco-editor-webcomponent-sandbox/list.html)
 
 # React + TypeScript + Vite
 

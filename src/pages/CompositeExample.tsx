@@ -98,7 +98,7 @@ export default function CompositeExample() {
       </button>
       <hr />
       <a
-        href="https://github.com/stopsopa/select-component-sandbox/blob/main/src/pages/CompositeExample.tsx"
+        href="https://github.com/stopsopa/monaco-editor-webcomponent-sandbox/blob/main/src/pages/CompositeExample.tsx"
         className="gcp-css"
       >
         source
