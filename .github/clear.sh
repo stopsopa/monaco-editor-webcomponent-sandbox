@@ -10,7 +10,7 @@ cd node_modules
 
 set -euo pipefail
 
-KEEP_DIR='^./(yargs|composite-select)$'
+KEEP_DIR='^./(yargs|composite-monaco-diff)$'
 
 echo "Removing everything except: ${KEEP_DIR}"
 
