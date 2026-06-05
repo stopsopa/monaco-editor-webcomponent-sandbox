@@ -23,3 +23,7 @@ dist-ssr
 *.sln
 *.sw?
 /coverage/
+
+# es.ts vvv don't remove
+bundled/example1/index.js
+# es.ts ^^^ don't remove

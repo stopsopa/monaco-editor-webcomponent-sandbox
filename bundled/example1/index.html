@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <a href="">source</a>
+    <br />
+    <center-and-height-resizer left="100px" center="1200px" height="300px">
+      <composite-monaco-diff></composite-monaco-diff>
+    </center-and-height-resizer>
+
+    <p style="margin: 12px 100px">
+      <label for="theme-select">Theme</label>
+      <select id="theme-select">
+        <option value="" selected>(Monaco default)</option>
+        <option value="vs">vs</option>
+        <option value="vs-dark">vs-dark</option>
+        <option value="hc-black">hc-black</option>
+        <option value="hc-light">hc-light</option>
+      </select>
+      &nbsp;
+      <label for="language-select">Language</label>
+      <select id="language-select">
+        <option value="javascript" selected>javascript</option>
+        <option value="typescript">typescript</option>
+        <option value="json">json</option>
+        <option value="css">css</option>
+        <option value="html">html</option>
+        <option value="python">python</option>
+        <option value="plaintext">plaintext</option>
+      </select>
+    </p>
+
+    <script type="module" src="index.js"></script>
+  </body>
+</html>

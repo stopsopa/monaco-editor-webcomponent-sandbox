@@ -32,14 +32,17 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version-file: '.tool-versions'
-          cache: 'npm'
+          node-version-file: ".tool-versions"
+          cache: "npm"
 
       - name: Install dependencies
         run: npm install
 
       - name: Vite build
         run: npm run build
+
+      - name: esbuild bundled/*.ts
+        run: /bin/bash es.sh
 
       - name: run server
         run: node --env-file .env --watch server.ts &
@@ -57,7 +60,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload entire repository as is
-          path: '.'
+          path: "."
 
       - name: Deploy to GitHub Pages
         id: deployment
