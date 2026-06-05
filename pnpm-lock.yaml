@@ -17,9 +17,9 @@ importers:
       '@types/serve-index':
         specifier: ^1.9.4
         version: 1.9.4
-      composite-select:
-        specifier: ^1.0.14
-        version: 1.0.14
+      composite-monaco-diff:
+        specifier: ^1.0.2
+        version: 1.0.2
       express:
         specifier: ^5.2.1
         version: 5.2.1
@@ -574,8 +574,8 @@ packages:
   color-name@1.1.4:
     resolution: {integrity: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==}
 
-  composite-select@1.0.14:
-    resolution: {integrity: sha512-5nZfoNN1Z8gL/PWMDLoKcdLdHPnKeKrwOOvqDmlEEkAc/tT18GtX+ZmLRFluL5CJM5xX+BTyoL3yeBvhYQLHTA==}
+  composite-monaco-diff@1.0.2:
+    resolution: {integrity: sha512-vokUgDjmtmF8im9uAq39BvBY6h43CVQ7LNnzHYqPqA6MRT8NHEJZnaUiHWNAghL+zpZlvv11iS7Hugj48RIIDg==}
 
   content-disposition@1.1.0:
     resolution: {integrity: sha512-5jRCH9Z/+DRP7rkvY83B+yGIGX96OYdJmzngqnw2SBSxqCFPd0w2km3s5iawpGX8krnwSGmF0FW5Nhr0Hfai3g==}
@@ -1977,7 +1977,7 @@ snapshots:
 
   color-name@1.1.4: {}
 
-  composite-select@1.0.14: {}
+  composite-monaco-diff@1.0.2: {}
 
   content-disposition@1.1.0: {}
 

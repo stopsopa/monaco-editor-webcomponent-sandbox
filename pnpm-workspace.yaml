@@ -1,3 +1,4 @@
 minimumReleaseAgeExclude:
   - composite-select@1.0.11
   - composite-select@1.0.14
+  - composite-monaco-diff@1.0.2

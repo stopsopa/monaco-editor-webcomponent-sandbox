@@ -13,7 +13,7 @@
     "@types/express": "^5.0.6",
     "@types/lodash": "^4.17.24",
     "@types/serve-index": "^1.9.4",
-    "composite-select": "^1.0.14",
+    "composite-monaco-diff": "^1.0.2",
     "express": "^5.2.1",
     "lodash": "^4.18.1",
     "react": "^19.2.6",

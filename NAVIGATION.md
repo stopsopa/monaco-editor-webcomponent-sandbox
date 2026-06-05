@@ -1,7 +1,5 @@
-[esm/composite-select.js](node_modules/composite-select/dist/esm/composite-select/composite-select.js)
+[package.json](node_modules/composite-monaco-diff/package.json)
 
-[CenterAndHeightResizer.js](node_modules/composite-select/dist/esm/CenterAndHeightResizer.js)
-[]()
 []()
 []()
 []()
