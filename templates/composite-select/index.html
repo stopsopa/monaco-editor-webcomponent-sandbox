@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <% if (d._head) { %>
+    <%= d.renderCond(d._head, d) || "" %>
+    <% } else { %>
+    <title>index.html</title>
+    <% } %>
+  </head>
+  <body>
+    <%= d.render(d._body, d) %>
+
+    <script
+      src="https://cdn.jsdelivr.net/gh/MarketingPipeline/GitHub-Ribbon-Web-Component/dist/github-ribbon-wc.min.js"
+      defer
+    ></script>
+
+    <github-ribbon link="https://github.com/stopsopa/select-component-sandbox" type="right" color="#679d2c"
+      >Fork me on GitHub</github-ribbon
+    >
+  </body>
+</html>
