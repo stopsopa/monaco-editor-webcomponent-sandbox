@@ -64,6 +64,8 @@ export default function MonacoDiffDemo() {
   const navigate = useNavigate();
 
   // Manage global theme parameter
+  // Because in Monaco Editor you can't change theme per instance. it have to be done globally
+  // for that then in order to store current value in url we don't want to add prefixes
   const { params: globalParams, setParam: setGlobalParam } = globalThemeParams.useQueryParams(
     location.search,
     navigate,
