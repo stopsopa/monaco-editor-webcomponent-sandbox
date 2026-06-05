@@ -125,7 +125,7 @@ export default function MonacoDiffDemo() {
           </h1>
           <p style={{ margin: "5px 0 0 0", color: "#6c757d" }}>
             <a
-              href="https://github.com/stopsopa/monaco-editor-webcomponent/blob/main/vite-project/src/pages/MonacoDiffDemo.tsx"
+              href="https://github.com/stopsopa/monaco-editor-webcomponent-sandbox/blob/main/src/pages/CompositeExample.tsx"
               className="gcp-css"
             >
               snippet
